@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const Microwave_1 = require("./Microwave");
+const Refrigerator_1 = require("./Refrigerator");
+const refrigerator = new Refrigerator_1.Refrigerator();
+refrigerator.turnOn();
+refrigerator.turnOff();
+console.log(`********************************************`);
+const microwave = new Microwave_1.Microwave(15, 'gu gu gu', 5000);
+microwave.turnOn();
