@@ -7,7 +7,7 @@ class Food {
         this.name = name;
     }
     serve() {
-        console.log();
+        console.log(`บริการ ${this.name}`);
     }
 }
 exports.Food = Food;

@@ -9,7 +9,10 @@ class Aircraft {
         this.capacity = capacity;
     }
     fly() {
-        console.log(`Aircraft is ...`);
+        console.log(`Aircraft is flying ${this.model}`);
+    }
+    land() {
+        console.log(`Aircraft is landing`);
     }
 }
 exports.Aircraft = Aircraft;

@@ -4,6 +4,6 @@ export class Food {
     }
 
     serve(): void{
-        console.log()
+        console.log(`บริการ ${this.name}`)
     }
 }

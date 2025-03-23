@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const Aircraft_1 = require("./Aircraft");
+const Airplane_1 = require("./Airplane");
+const Helictopter_1 = require("./Helictopter");
+const aircraft = new Aircraft_1.Aircraft('Boeing 747', 400);
+aircraft.fly();
+aircraft.land();
+const airplane = new Airplane_1.Airplane('Airbus A320', 200);
+airplane.fly();
+airplane.land();
+const helicopter = new Helictopter_1.Helictopter('Bell 407', 4);
+helicopter.fly();

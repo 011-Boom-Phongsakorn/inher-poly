@@ -5,6 +5,10 @@ export class Aircraft {
     }
     
     fly(): void{
-        console.log(`Aircraft is ...`)
+        console.log(`Aircraft is flying ${this.model}`)
+    }
+
+    land(): void{
+        console.log(`Aircraft is landing`)
     }
 }

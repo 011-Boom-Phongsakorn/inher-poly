@@ -2,9 +2,15 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const Microwave_1 = require("./Microwave");
 const Refrigerator_1 = require("./Refrigerator");
+const WashingMachine_1 = require("./WashingMachine");
 const refrigerator = new Refrigerator_1.Refrigerator();
 refrigerator.turnOn();
 refrigerator.turnOff();
 console.log(`********************************************`);
 const microwave = new Microwave_1.Microwave(15, 'gu gu gu', 5000);
 microwave.turnOn();
+const washingMachine = new WashingMachine_1.WashingMachine('Samsung');
+washingMachine.turnOn();
+washingMachine.turnOff();
+washingMachine.wash();
+washingMachine.dry();
